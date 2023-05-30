@@ -1,0 +1,31 @@
+.text{
+    color:chartreuse;
+    font-size: 35px;
+    line-height: 3;
+    letter-spacing: 4px;
+    font-family:sans-serif;
+    font-weight: 100;
+    background-color:coral;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 44px;
+    font-style:oblique;
+}
+.text::first-letter{
+    color:red;
+}
+
+.width{
+    width: 50%;
+    text-align: center;
+    background-color: darkgoldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text b{
+    font-weight: 900;
+    color:red;
+    text-decoration: line-through;
+}

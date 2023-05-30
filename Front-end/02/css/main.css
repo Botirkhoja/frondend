@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+img, video{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+button, input, textarea{
+    cursor: pointer;
+}
+
+.title-1{
+    font-family: 'abel' sans-serif;
+    font-style: 72px;
+    line-height: 60px;
+}
+
+.link{
+    color:aqua;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.link:hover{
+    color:rgb(229, 100, 13)
+}
+    
+.subtitle{
+    font-style: 14px;
+    line-height: 14px;
+}
+
+.title-2{
+    font-style: 56px;
+    line-height: 52px;
+}
+
+.text{
+    color:blueviolet; 
+}
+
+.input, .textarea{
+    outline: none;
+    border: 1px solid #C7D0D6;
+    font-weight: 400;
+    font-style: 16px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    margin-left: 20px;
+}
+
+.input:hover, .textarea:hover{
+    border: 1px solid #547C8D;
+}
+
+.label{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.textarea{
+    resize: vertical;
+    color: #547C8D;
+}
+
+.button{
+    padding: 16px 36px;
+    line-height: 24px;
+    font-size: 24px;
+    background: rgba(255, 255, 255,1);
+    border: 1px solid #547C8D;
+    color: #547C8D;
+    margin-left: 20px;
+}
+
+.button:hover{
+    background: #547C8D;
+    color: white;
+}
+
+.hotel-map{
+    width: 100%;
+    height: 450px;
+}
